@@ -1,0 +1,8 @@
+pages\CreateProject.class
+utilities\ExtentReport.class
+utilities\LoadProperties.class
+utilities\InvokeBrowser.class
+utilities\Locators.class
+pages\Registration_page.class
+utilities\Email$1.class
+utilities\Email.class

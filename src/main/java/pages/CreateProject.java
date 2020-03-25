@@ -1,3 +1,7 @@
+//********************
+//    Author of Code :- Jyoti
+//********************
+
 package pages;
 
 import org.openqa.selenium.By;
@@ -28,16 +32,17 @@ public class CreateProject {
 	}
 
 	public void MouseHover(By locator) throws Throwable {
-		
+
 		ElementWait(locator);
 		Actions action = new Actions(InvokeBrowser.driver);
 		action.moveToElement(Element(locator)).click().perform();
 		DemoWait();
 	}
 
-	public void Name(String name) {
+	public void Name(String name) throws Throwable {
 
 		InvokeBrowser.driver.findElement(Locators.ProjectName).sendKeys(name);
+		DemoWait();
 		InvokeBrowser.driver.findElement(Locators.SubmitButton).click();
 	}
 
@@ -46,6 +51,15 @@ public class CreateProject {
 		ElementWait(Locators.UserStoryField);
 		InvokeBrowser.driver.findElement(Locators.UserStoryField).sendKeys(story);
 		InvokeBrowser.driver.findElement(Locators.UserStoryField).sendKeys(Keys.ENTER);
+	}
+
+	public void ConfigureIssueType() throws Throwable {
+
+		Click(Locators.Setting);
+		Click(Locators.CrossButton);
+		MouseHover(Locators.ActionButton);
+		Click(Locators.AddIssue);
+		Click(Locators.IssuePage);
 	}
 
 	public void CreateCase(String steps, String data, String result) throws Throwable {
@@ -83,16 +97,6 @@ public class CreateProject {
 	public void DemoWait() throws Throwable {
 
 		Thread.sleep(3000);
-
-	}
-
-	public void ConfigureIssueType() throws Throwable {
-
-		Click(Locators.Setting);
-		Click(Locators.CrossButton);
-		MouseHover(Locators.ActionButton);
-		Click(Locators.AddIssue);
-		Click(Locators.IssuePage);
 	}
 
 }
