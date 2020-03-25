@@ -21,11 +21,11 @@ public class RegistrationTest {
 	public void setup(String Browser) throws Throwable {
 		
 		if (Browser.equalsIgnoreCase("Chrome")) {
-			LoadProperties.property("config2");
+			LoadProperties.property("config1");
 			ExtentReport ER= new ExtentReport("ExtentReportResult1");
 		}
 		else {
-			LoadProperties.property("config1");
+			LoadProperties.property("config2");
 			ExtentReport ER= new ExtentReport("ExtentReportResult2");
 		}
 		
