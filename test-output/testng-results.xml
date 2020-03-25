@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="29" passed="29">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="425444" started-at="2020-03-25T07:04:24Z" finished-at="2020-03-25T07:11:30Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="425444" started-at="2020-03-25T07:04:24Z" finished-at="2020-03-25T07:11:30Z">
+      <class name="tests.CreateXrayProject_TestScenario3">
+        <test-method status="PASS" signature="Setup()[pri:0, instance:tests.CreateXrayProject_TestScenario3@4b1b2255]" name="Setup" is-config="true" duration-ms="999" started-at="2020-03-25T07:07:06Z" finished-at="2020-03-25T07:07:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method status="PASS" signature="New_Registration()[pri:13, instance:tests.CreateXrayProject_TestScenario3@4b1b2255]" name="New_Registration" duration-ms="14234" started-at="2020-03-25T07:07:07Z" finished-at="2020-03-25T07:07:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- New_Registration -->
+        <test-method status="PASS" signature="login_ValidUserValidPass()[pri:14, instance:tests.CreateXrayProject_TestScenario3@4b1b2255]" name="login_ValidUserValidPass" duration-ms="3783" started-at="2020-03-25T07:07:21Z" finished-at="2020-03-25T07:07:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login_ValidUserValidPass -->
+        <test-method status="PASS" signature="CreateXrayProject()[pri:15, instance:tests.CreateXrayProject_TestScenario3@4b1b2255]" name="CreateXrayProject" duration-ms="22534" started-at="2020-03-25T07:07:25Z" finished-at="2020-03-25T07:07:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateXrayProject -->
+        <test-method status="PASS" signature="ProjectName()[pri:16, instance:tests.CreateXrayProject_TestScenario3@4b1b2255]" name="ProjectName" duration-ms="3345" started-at="2020-03-25T07:07:48Z" finished-at="2020-03-25T07:07:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProjectName -->
+        <test-method status="PASS" signature="UserStory()[pri:17, instance:tests.CreateXrayProject_TestScenario3@4b1b2255]" name="UserStory" duration-ms="13620" started-at="2020-03-25T07:07:51Z" finished-at="2020-03-25T07:08:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UserStory -->
+        <test-method status="PASS" signature="Task()[pri:18, instance:tests.CreateXrayProject_TestScenario3@4b1b2255]" name="Task" duration-ms="18725" started-at="2020-03-25T07:08:05Z" finished-at="2020-03-25T07:08:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Task -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:tests.CreateXrayProject_TestScenario3@4b1b2255]" name="logout" is-config="true" duration-ms="2600" started-at="2020-03-25T07:08:23Z" finished-at="2020-03-25T07:08:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- tests.CreateXrayProject_TestScenario3 -->
+      <class name="tests.CreateXrayProject_TestScenario5">
+        <test-method status="PASS" signature="Setup()[pri:0, instance:tests.CreateXrayProject_TestScenario5@1e4a4ed5]" name="Setup" is-config="true" duration-ms="1574" started-at="2020-03-25T07:10:06Z" finished-at="2020-03-25T07:10:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method status="PASS" signature="New_Registration()[pri:24, instance:tests.CreateXrayProject_TestScenario5@1e4a4ed5]" name="New_Registration" duration-ms="14937" started-at="2020-03-25T07:10:08Z" finished-at="2020-03-25T07:10:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- New_Registration -->
+        <test-method status="PASS" signature="login_ValidUserValidPass()[pri:25, instance:tests.CreateXrayProject_TestScenario5@1e4a4ed5]" name="login_ValidUserValidPass" duration-ms="3996" started-at="2020-03-25T07:10:23Z" finished-at="2020-03-25T07:10:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login_ValidUserValidPass -->
+        <test-method status="PASS" signature="CreateXrayProject()[pri:26, instance:tests.CreateXrayProject_TestScenario5@1e4a4ed5]" name="CreateXrayProject" duration-ms="22736" started-at="2020-03-25T07:10:27Z" finished-at="2020-03-25T07:10:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateXrayProject -->
+        <test-method status="PASS" signature="ProjectName()[pri:27, instance:tests.CreateXrayProject_TestScenario5@1e4a4ed5]" name="ProjectName" duration-ms="3372" started-at="2020-03-25T07:10:49Z" finished-at="2020-03-25T07:10:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProjectName -->
+        <test-method status="PASS" signature="UserStory()[pri:28, instance:tests.CreateXrayProject_TestScenario5@1e4a4ed5]" name="UserStory" duration-ms="12715" started-at="2020-03-25T07:10:53Z" finished-at="2020-03-25T07:11:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UserStory -->
+        <test-method status="PASS" signature="TestCase()[pri:29, instance:tests.CreateXrayProject_TestScenario5@1e4a4ed5]" name="TestCase" duration-ms="21197" started-at="2020-03-25T07:11:06Z" finished-at="2020-03-25T07:11:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCase -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:tests.CreateXrayProject_TestScenario5@1e4a4ed5]" name="logout" is-config="true" duration-ms="3146" started-at="2020-03-25T07:11:27Z" finished-at="2020-03-25T07:11:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- tests.CreateXrayProject_TestScenario5 -->
+      <class name="tests.CreateXrayProject_TestScenario2">
+        <test-method status="PASS" signature="Setup()[pri:0, instance:tests.CreateXrayProject_TestScenario2@1a6a4595]" name="Setup" is-config="true" duration-ms="1" started-at="2020-03-25T07:05:56Z" finished-at="2020-03-25T07:05:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method status="PASS" signature="login_ValidUserValidPass()[pri:8, instance:tests.CreateXrayProject_TestScenario2@1a6a4595]" name="login_ValidUserValidPass" duration-ms="10599" started-at="2020-03-25T07:05:56Z" finished-at="2020-03-25T07:06:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login_ValidUserValidPass -->
+        <test-method status="PASS" signature="CreateXrayProject()[pri:9, instance:tests.CreateXrayProject_TestScenario2@1a6a4595]" name="CreateXrayProject" duration-ms="16081" started-at="2020-03-25T07:06:07Z" finished-at="2020-03-25T07:06:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateXrayProject -->
+        <test-method status="PASS" signature="ProjectName()[pri:10, instance:tests.CreateXrayProject_TestScenario2@1a6a4595]" name="ProjectName" duration-ms="3467" started-at="2020-03-25T07:06:23Z" finished-at="2020-03-25T07:06:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProjectName -->
+        <test-method status="PASS" signature="UserStory()[pri:11, instance:tests.CreateXrayProject_TestScenario2@1a6a4595]" name="UserStory" duration-ms="21951" started-at="2020-03-25T07:06:26Z" finished-at="2020-03-25T07:06:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UserStory -->
+        <test-method status="PASS" signature="Plan()[pri:12, instance:tests.CreateXrayProject_TestScenario2@1a6a4595]" name="Plan" duration-ms="16223" started-at="2020-03-25T07:06:48Z" finished-at="2020-03-25T07:07:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Plan -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:tests.CreateXrayProject_TestScenario2@1a6a4595]" name="logout" is-config="true" duration-ms="1721" started-at="2020-03-25T07:07:04Z" finished-at="2020-03-25T07:07:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- tests.CreateXrayProject_TestScenario2 -->
+      <class name="tests.RegistrationTest">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:tests.RegistrationTest@7c6fc278]" name="setup" is-config="true" duration-ms="22961" started-at="2020-03-25T07:04:24Z" finished-at="2020-03-25T07:04:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="SandBox()[pri:0, instance:tests.RegistrationTest@7c6fc278]" name="SandBox" duration-ms="203" started-at="2020-03-25T07:04:47Z" finished-at="2020-03-25T07:04:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SandBox -->
+        <test-method status="PASS" signature="Register_ValidUserValidPass()[pri:1, instance:tests.RegistrationTest@7c6fc278]" name="Register_ValidUserValidPass" duration-ms="1260" started-at="2020-03-25T07:04:48Z" finished-at="2020-03-25T07:04:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Register_ValidUserValidPass -->
+        <test-method status="PASS" signature="SetPassword()[pri:2, instance:tests.RegistrationTest@7c6fc278]" name="SetPassword" duration-ms="16135" started-at="2020-03-25T07:04:49Z" finished-at="2020-03-25T07:05:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetPassword -->
+      </class> <!-- tests.RegistrationTest -->
+      <class name="tests.CreateProject_TestScenario1">
+        <test-method status="PASS" signature="Setup()[pri:0, instance:tests.CreateProject_TestScenario1@23ee92df]" name="Setup" is-config="true" duration-ms="2" started-at="2020-03-25T07:05:05Z" finished-at="2020-03-25T07:05:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method status="PASS" signature="login_ValidUserValidPass()[pri:3, instance:tests.CreateProject_TestScenario1@23ee92df]" name="login_ValidUserValidPass" duration-ms="5751" started-at="2020-03-25T07:05:05Z" finished-at="2020-03-25T07:05:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login_ValidUserValidPass -->
+        <test-method status="PASS" signature="NewProject()[pri:4, instance:tests.CreateProject_TestScenario1@23ee92df]" name="NewProject" duration-ms="22660" started-at="2020-03-25T07:05:11Z" finished-at="2020-03-25T07:05:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NewProject -->
+        <test-method status="PASS" signature="ProjectName()[pri:5, instance:tests.CreateProject_TestScenario1@23ee92df]" name="ProjectName" duration-ms="3393" started-at="2020-03-25T07:05:34Z" finished-at="2020-03-25T07:05:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProjectName -->
+        <test-method status="PASS" signature="UserStory()[pri:6, instance:tests.CreateProject_TestScenario1@23ee92df]" name="UserStory" duration-ms="17175" started-at="2020-03-25T07:05:37Z" finished-at="2020-03-25T07:05:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UserStory -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:tests.CreateProject_TestScenario1@23ee92df]" name="logout" is-config="true" duration-ms="1679" started-at="2020-03-25T07:05:54Z" finished-at="2020-03-25T07:05:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- tests.CreateProject_TestScenario1 -->
+      <class name="tests.CreateProject_TestScenario4">
+        <test-method status="PASS" signature="Setup()[pri:0, instance:tests.CreateProject_TestScenario4@4965454c]" name="Setup" is-config="true" duration-ms="1" started-at="2020-03-25T07:08:26Z" finished-at="2020-03-25T07:08:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method status="PASS" signature="login_ValidUserValidPass()[pri:19, instance:tests.CreateProject_TestScenario4@4965454c]" name="login_ValidUserValidPass" duration-ms="10745" started-at="2020-03-25T07:08:26Z" finished-at="2020-03-25T07:08:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login_ValidUserValidPass -->
+        <test-method status="PASS" signature="NewProject()[pri:20, instance:tests.CreateProject_TestScenario4@4965454c]" name="NewProject" duration-ms="16157" started-at="2020-03-25T07:08:37Z" finished-at="2020-03-25T07:08:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NewProject -->
+        <test-method status="PASS" signature="ProjectName()[pri:21, instance:tests.CreateProject_TestScenario4@4965454c]" name="ProjectName" duration-ms="3364" started-at="2020-03-25T07:08:53Z" finished-at="2020-03-25T07:08:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProjectName -->
+        <test-method status="PASS" signature="UserStory()[pri:22, instance:tests.CreateProject_TestScenario4@4965454c]" name="UserStory" duration-ms="13058" started-at="2020-03-25T07:08:56Z" finished-at="2020-03-25T07:09:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UserStory -->
+        <test-method status="PASS" signature="TestCase()[pri:23, instance:tests.CreateProject_TestScenario4@4965454c]" name="TestCase" duration-ms="55236" started-at="2020-03-25T07:09:09Z" finished-at="2020-03-25T07:10:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCase -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:tests.CreateProject_TestScenario4@4965454c]" name="logout" is-config="true" duration-ms="1522" started-at="2020-03-25T07:10:05Z" finished-at="2020-03-25T07:10:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- tests.CreateProject_TestScenario4 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

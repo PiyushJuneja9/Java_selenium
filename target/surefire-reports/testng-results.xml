@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="2" ignored="0" total="29" passed="27">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="558142" started-at="2020-03-24T22:20:34Z" finished-at="2020-03-24T22:29:52Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="558142" started-at="2020-03-24T22:20:34Z" finished-at="2020-03-24T22:29:52Z">
+      <class name="tests.CreateXrayProject_TestScenario3">
+        <test-method status="PASS" signature="Setup()[pri:0, instance:tests.CreateXrayProject_TestScenario3@36fc695d]" name="Setup" is-config="true" duration-ms="1070" started-at="2020-03-24T22:24:32Z" finished-at="2020-03-24T22:24:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method status="PASS" signature="New_Registration()[pri:13, instance:tests.CreateXrayProject_TestScenario3@36fc695d]" name="New_Registration" duration-ms="61153" started-at="2020-03-24T22:24:33Z" finished-at="2020-03-24T22:25:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- New_Registration -->
+        <test-method status="PASS" signature="login_ValidUserValidPass()[pri:14, instance:tests.CreateXrayProject_TestScenario3@36fc695d]" name="login_ValidUserValidPass" duration-ms="3707" started-at="2020-03-24T22:25:34Z" finished-at="2020-03-24T22:25:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login_ValidUserValidPass -->
+        <test-method status="PASS" signature="CreateXrayProject()[pri:15, instance:tests.CreateXrayProject_TestScenario3@36fc695d]" name="CreateXrayProject" duration-ms="22781" started-at="2020-03-24T22:25:38Z" finished-at="2020-03-24T22:26:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateXrayProject -->
+        <test-method status="PASS" signature="ProjectName()[pri:16, instance:tests.CreateXrayProject_TestScenario3@36fc695d]" name="ProjectName" duration-ms="3370" started-at="2020-03-24T22:26:01Z" finished-at="2020-03-24T22:26:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProjectName -->
+        <test-method status="PASS" signature="UserStory()[pri:17, instance:tests.CreateXrayProject_TestScenario3@36fc695d]" name="UserStory" duration-ms="14439" started-at="2020-03-24T22:26:04Z" finished-at="2020-03-24T22:26:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UserStory -->
+        <test-method status="PASS" signature="Task()[pri:18, instance:tests.CreateXrayProject_TestScenario3@36fc695d]" name="Task" duration-ms="19492" started-at="2020-03-24T22:26:19Z" finished-at="2020-03-24T22:26:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Task -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:tests.CreateXrayProject_TestScenario3@36fc695d]" name="logout" is-config="true" duration-ms="1232" started-at="2020-03-24T22:26:38Z" finished-at="2020-03-24T22:26:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- tests.CreateXrayProject_TestScenario3 -->
+      <class name="tests.CreateXrayProject_TestScenario5">
+        <test-method status="PASS" signature="Setup()[pri:0, instance:tests.CreateXrayProject_TestScenario5@13c9d689]" name="Setup" is-config="true" duration-ms="1093" started-at="2020-03-24T22:27:50Z" finished-at="2020-03-24T22:27:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method status="PASS" signature="New_Registration()[pri:24, instance:tests.CreateXrayProject_TestScenario5@13c9d689]" name="New_Registration" duration-ms="61077" started-at="2020-03-24T22:27:51Z" finished-at="2020-03-24T22:28:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- New_Registration -->
+        <test-method status="PASS" signature="login_ValidUserValidPass()[pri:25, instance:tests.CreateXrayProject_TestScenario5@13c9d689]" name="login_ValidUserValidPass" duration-ms="3819" started-at="2020-03-24T22:28:52Z" finished-at="2020-03-24T22:28:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login_ValidUserValidPass -->
+        <test-method status="PASS" signature="CreateXrayProject()[pri:26, instance:tests.CreateXrayProject_TestScenario5@13c9d689]" name="CreateXrayProject" duration-ms="22556" started-at="2020-03-24T22:28:56Z" finished-at="2020-03-24T22:29:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateXrayProject -->
+        <test-method status="PASS" signature="ProjectName()[pri:27, instance:tests.CreateXrayProject_TestScenario5@13c9d689]" name="ProjectName" duration-ms="3352" started-at="2020-03-24T22:29:18Z" finished-at="2020-03-24T22:29:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProjectName -->
+        <test-method status="PASS" signature="UserStory()[pri:28, instance:tests.CreateXrayProject_TestScenario5@13c9d689]" name="UserStory" duration-ms="12943" started-at="2020-03-24T22:29:22Z" finished-at="2020-03-24T22:29:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UserStory -->
+        <test-method status="FAIL" signature="TestCase()[pri:29, instance:tests.CreateXrayProject_TestScenario5@13c9d689]" name="TestCase" duration-ms="12928" started-at="2020-03-24T22:29:35Z" finished-at="2020-03-24T22:29:47Z">
+          <exception class="java.lang.IllegalArgumentException">
+            <message>
+              <![CDATA[Keys to send should be a not null CharSequence]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException: Keys to send should be a not null CharSequence
+at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:97)
+at pages.CreateProject.story(CreateProject.java:38)
+at tests.CreateXrayProject_TestScenario5.TestCase(CreateXrayProject_TestScenario5.java:122)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:386)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:323)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCase -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:tests.CreateXrayProject_TestScenario5@13c9d689]" name="logout" is-config="true" duration-ms="4718" started-at="2020-03-24T22:29:47Z" finished-at="2020-03-24T22:29:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- tests.CreateXrayProject_TestScenario5 -->
+      <class name="tests.CreateXrayProject_TestScenario2">
+        <test-method status="PASS" signature="Setup()[pri:0, instance:tests.CreateXrayProject_TestScenario2@2b71e916]" name="Setup" is-config="true" duration-ms="1" started-at="2020-03-24T22:23:18Z" finished-at="2020-03-24T22:23:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method status="PASS" signature="login_ValidUserValidPass()[pri:8, instance:tests.CreateXrayProject_TestScenario2@2b71e916]" name="login_ValidUserValidPass" duration-ms="11904" started-at="2020-03-24T22:23:18Z" finished-at="2020-03-24T22:23:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login_ValidUserValidPass -->
+        <test-method status="PASS" signature="CreateXrayProject()[pri:9, instance:tests.CreateXrayProject_TestScenario2@2b71e916]" name="CreateXrayProject" duration-ms="16191" started-at="2020-03-24T22:23:30Z" finished-at="2020-03-24T22:23:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateXrayProject -->
+        <test-method status="PASS" signature="ProjectName()[pri:10, instance:tests.CreateXrayProject_TestScenario2@2b71e916]" name="ProjectName" duration-ms="3453" started-at="2020-03-24T22:23:46Z" finished-at="2020-03-24T22:23:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProjectName -->
+        <test-method status="PASS" signature="UserStory()[pri:11, instance:tests.CreateXrayProject_TestScenario2@2b71e916]" name="UserStory" duration-ms="24337" started-at="2020-03-24T22:23:50Z" finished-at="2020-03-24T22:24:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UserStory -->
+        <test-method status="PASS" signature="Plan()[pri:12, instance:tests.CreateXrayProject_TestScenario2@2b71e916]" name="Plan" duration-ms="16402" started-at="2020-03-24T22:24:14Z" finished-at="2020-03-24T22:24:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Plan -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:tests.CreateXrayProject_TestScenario2@2b71e916]" name="logout" is-config="true" duration-ms="1826" started-at="2020-03-24T22:24:30Z" finished-at="2020-03-24T22:24:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- tests.CreateXrayProject_TestScenario2 -->
+      <class name="tests.RegistrationTest">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:tests.RegistrationTest@6b2ea799]" name="setup" is-config="true" duration-ms="28469" started-at="2020-03-24T22:20:34Z" finished-at="2020-03-24T22:21:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="SandBox()[pri:0, instance:tests.RegistrationTest@6b2ea799]" name="SandBox" duration-ms="101" started-at="2020-03-24T22:21:03Z" finished-at="2020-03-24T22:21:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SandBox -->
+        <test-method status="PASS" signature="Register_ValidUserValidPass()[pri:1, instance:tests.RegistrationTest@6b2ea799]" name="Register_ValidUserValidPass" duration-ms="1364" started-at="2020-03-24T22:21:03Z" finished-at="2020-03-24T22:21:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Register_ValidUserValidPass -->
+        <test-method status="PASS" signature="SetPassword()[pri:2, instance:tests.RegistrationTest@6b2ea799]" name="SetPassword" duration-ms="70536" started-at="2020-03-24T22:21:04Z" finished-at="2020-03-24T22:22:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetPassword -->
+      </class> <!-- tests.RegistrationTest -->
+      <class name="tests.CreateProject_TestScenario1">
+        <test-method status="PASS" signature="Setup()[pri:0, instance:tests.CreateProject_TestScenario1@411f53a0]" name="Setup" is-config="true" duration-ms="2" started-at="2020-03-24T22:22:15Z" finished-at="2020-03-24T22:22:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method status="PASS" signature="login_ValidUserValidPass()[pri:3, instance:tests.CreateProject_TestScenario1@411f53a0]" name="login_ValidUserValidPass" duration-ms="9371" started-at="2020-03-24T22:22:15Z" finished-at="2020-03-24T22:22:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login_ValidUserValidPass -->
+        <test-method status="PASS" signature="NewProject()[pri:4, instance:tests.CreateProject_TestScenario1@411f53a0]" name="NewProject" duration-ms="22564" started-at="2020-03-24T22:22:24Z" finished-at="2020-03-24T22:22:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NewProject -->
+        <test-method status="PASS" signature="ProjectName()[pri:5, instance:tests.CreateProject_TestScenario1@411f53a0]" name="ProjectName" duration-ms="3287" started-at="2020-03-24T22:22:47Z" finished-at="2020-03-24T22:22:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProjectName -->
+        <test-method status="PASS" signature="UserStory()[pri:6, instance:tests.CreateProject_TestScenario1@411f53a0]" name="UserStory" duration-ms="26500" started-at="2020-03-24T22:22:50Z" finished-at="2020-03-24T22:23:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UserStory -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:tests.CreateProject_TestScenario1@411f53a0]" name="logout" is-config="true" duration-ms="1502" started-at="2020-03-24T22:23:16Z" finished-at="2020-03-24T22:23:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- tests.CreateProject_TestScenario1 -->
+      <class name="tests.CreateProject_TestScenario4">
+        <test-method status="PASS" signature="Setup()[pri:0, instance:tests.CreateProject_TestScenario4@28701274]" name="Setup" is-config="true" duration-ms="2" started-at="2020-03-24T22:26:39Z" finished-at="2020-03-24T22:26:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method status="PASS" signature="login_ValidUserValidPass()[pri:19, instance:tests.CreateProject_TestScenario4@28701274]" name="login_ValidUserValidPass" duration-ms="10875" started-at="2020-03-24T22:26:39Z" finished-at="2020-03-24T22:26:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login_ValidUserValidPass -->
+        <test-method status="PASS" signature="NewProject()[pri:20, instance:tests.CreateProject_TestScenario4@28701274]" name="NewProject" duration-ms="16138" started-at="2020-03-24T22:26:50Z" finished-at="2020-03-24T22:27:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NewProject -->
+        <test-method status="PASS" signature="ProjectName()[pri:21, instance:tests.CreateProject_TestScenario4@28701274]" name="ProjectName" duration-ms="3312" started-at="2020-03-24T22:27:06Z" finished-at="2020-03-24T22:27:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProjectName -->
+        <test-method status="PASS" signature="UserStory()[pri:22, instance:tests.CreateProject_TestScenario4@28701274]" name="UserStory" duration-ms="25292" started-at="2020-03-24T22:27:10Z" finished-at="2020-03-24T22:27:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UserStory -->
+        <test-method status="FAIL" signature="TestCase()[pri:23, instance:tests.CreateProject_TestScenario4@28701274]" name="TestCase" duration-ms="13296" started-at="2020-03-24T22:27:35Z" finished-at="2020-03-24T22:27:48Z">
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element <button id="project-config-actions" class="aui-button aui-dropdown2-trigger" aria-haspopup="true" resolved="" aria-controls="project-config-actions-list" aria-expanded="false">...</button> is not clickable at point (1279, 80). Other element would receive the click: <div class="aui-message closeable aui-message-info">...</div>
+  (Session info: chrome=80.0.3987.149)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-PIYUSH', ip: '192.168.137.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.149, chrome: {chromedriverVersion: 80.0.3987.16 (320f6526c1632..., userDataDir: C:\Users\piyus\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:55428}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 207dcde78e2fa780bf5dec3058e6bddc]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <button id="project-config-actions" class="aui-button aui-dropdown2-trigger" aria-haspopup="true" resolved="" aria-controls="project-config-actions-list" aria-expanded="false">...</button> is not clickable at point (1279, 80). Other element would receive the click: <div class="aui-message closeable aui-message-info">...</div>
+  (Session info: chrome=80.0.3987.149)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-PIYUSH', ip: '192.168.137.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.149, chrome: {chromedriverVersion: 80.0.3987.16 (320f6526c1632..., userDataDir: C:\Users\piyus\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:55428}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 207dcde78e2fa780bf5dec3058e6bddc
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+at pages.CreateProject.Click(CreateProject.java:25)
+at tests.CreateProject_TestScenario4.TestCase(CreateProject_TestScenario4.java:83)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:386)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:323)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCase -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:tests.CreateProject_TestScenario4@28701274]" name="logout" is-config="true" duration-ms="1332" started-at="2020-03-24T22:27:48Z" finished-at="2020-03-24T22:27:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- tests.CreateProject_TestScenario4 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

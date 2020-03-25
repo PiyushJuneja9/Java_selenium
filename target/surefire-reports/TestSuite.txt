@@ -1,0 +1,19 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 29, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 561.154 s <<< FAILURE! - in TestSuite
+TestCase(tests.CreateProject_TestScenario4)  Time elapsed: 13.31 s  <<< FAILURE!
+org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element <button id="project-config-actions" class="aui-button aui-dropdown2-trigger" aria-haspopup="true" resolved="" aria-controls="project-config-actions-list" aria-expanded="false">...</button> is not clickable at point (1279, 80). Other element would receive the click: <div class="aui-message closeable aui-message-info">...</div>
+  (Session info: chrome=80.0.3987.149)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-PIYUSH', ip: '192.168.137.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.149, chrome: {chromedriverVersion: 80.0.3987.16 (320f6526c1632..., userDataDir: C:\Users\piyus\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:55428}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 207dcde78e2fa780bf5dec3058e6bddc
+	at tests.CreateProject_TestScenario4.TestCase(CreateProject_TestScenario4.java:83)
+
+TestCase(tests.CreateXrayProject_TestScenario5)  Time elapsed: 12.928 s  <<< FAILURE!
+java.lang.IllegalArgumentException: Keys to send should be a not null CharSequence
+	at tests.CreateXrayProject_TestScenario5.TestCase(CreateXrayProject_TestScenario5.java:122)
+

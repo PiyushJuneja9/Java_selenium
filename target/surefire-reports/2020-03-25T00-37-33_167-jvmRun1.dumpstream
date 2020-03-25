@@ -1,0 +1,209 @@
+# Created on 2020-03-25T00:37:50.854
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.io.DataInputStream.readInt(Unknown Source)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:386)
+	at java.lang.Thread.run(Unknown Source)
+
+
+# Created on 2020-03-25T00:37:58.079
+Unexpected IOException: 8,1,tests.RegistrationTest,setup(tests.RegistrationTest),null,session not created\000Afrom chrome not reachable\000A  (Session info: chrome=80.0.3987.149)\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'DESKTOP-PIYUSH'\002C ip: '192.168.137.1'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_241'\000ADriver info: driver.version: ChromeDriver\000Aremote stacktrace: Backtrace:\000A\0009Ordinal0 [0x009C0AE3+1706723]\000A\0009Ordinal0 [0x009268C1+1075393]\000A\0009Ordinal0 [0x0089DE52+515666]\000A\0009Ordinal0 [0x00897C88+490632]\000A\0009Ordinal0 [0x0089837B+492411]\000A\0009Ordinal0 [0x008992D5+496341]\000A\0009Ordinal0 [0x00894EE5+478949]\000A\0009Ordinal0 [0x0089EC80+519296]\000A\0009Ordinal0 [0x0084CA67+182887]\000A\0009Ordinal0 [0x0084BDDD+179677]\000A\0009Ordinal0 [0x00849D4B+171339]\000A\0009Ordinal0 [0x00831D4A+73034]\000A\0009Ordinal0 [0x00832DC0+77248]\000A\0009Ordinal0 [0x00832D59+77145]\000A\0009Ordinal0 [0x0093BB37+1162039]\000A\0009GetHandleVerifier [0x00A5A7C6+508998]\000A\0009GetHandleVerifier [0x00A5A504+508292]\000A\0009GetHandleVerifier [0x00A6F617+594583]\000A\0009GetHandleVerifier [0x00A5B036+511158]\000A\0009Ordinal0 [0x00933FFC+1130492]\000A\0009Ordinal0 [0x0093D49B+1168539]\000A\0009Ordinal0 [0x0093D603+1168899]\000A\0009Ordinal0 [0x00955B05+1268485]\000A\0009BaseThreadInitThunk [0x76AD6359+25]\000A\0009RtlGetAppContainerNamedObjectPath [0x77B17B74+228]\000A\0009RtlGetAppContainerNamedObjectPath [0x77B17B44+180]\000A,null,session not created\000Afrom chrome not reachable\000A  (Session info: chrome=80.0.3987.149)\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'DESKTOP-PIYUSH'\002C ip: '192.168.137.1'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_241'\000ADriver info: driver.version: ChromeDriver\000Aremote stacktrace: Backtrace:\000A\0009Ordinal0 [0x009C0AE3+1706723]\000A\0009Ordinal0 [0x009268C1+1075393]\000A\0009Ordinal0 [0x0089DE52+515666]\000A\0009Ordinal0 [0x00897C88+490632]\000A\0009Ordinal0 [0x0089837B+492411]\000A\0009Ordinal0 [0x008992D5+496341]\000A\0009Ordinal0 [0x00894EE5+478949]\000A\0009Ordinal0 [0x0089EC80+519296]\000A\0009Ordinal0 [0x0084CA67+182887]\000A\0009Ordinal0 [0x0084BDDD+179677]\000A\0009Ordinal0 [0x00849D4B+171339]\000A\0009Ordinal0 [0x00831D4A+73034]\000A\0009Ordinal0 [0x00832DC0+77248]\000A\0009Ordinal0 [0x00832D59+77145]\000A\0009Ordinal0 [0x0093BB37+1162039]\000A\0009GetHandleVerifier [0x00A5A7C6+508998]\000A\0009GetHandleVerifier [0x00A5A504+508292]\000A\0009GetHandleVerifier [0x00A6F617+594583]\000A\0009GetHandleVerifier [0x00A5B036+511158]\000A\0009Ordinal0 [0x00933FFC+1130492]\000A\0009Ordinal0 [0x0093D49B+1168539]\000A\0009Ordinal0 [0x0093D603+1168899]\000A\0009Ordinal0 [0x00955B05+1268485]\000A\0009BaseThreadInitThunk [0x76AD6359+25]\000A\0009RtlGetAppContainerNamedObjectPath [0x77B17B74+228]\000A\0009RtlGetAppContainerNamedObjectPath [0x77B17B44+180]\000A,RegistrationTest.setup:31 \00BB SessionNotCreated session not created\000Afrom chrome ...,org.openqa.selenium.SessionNotCreatedException: \000Asession not created\000Afrom chrome not reachable\000A  (Session info: chrome=80.0.3987.149)\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'DESKTOP-PIYUSH'\002C ip: '192.168.137.1'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_241'\000ADriver info: driver.version: ChromeDriver\000Aremote stacktrace: Backtrace:\000A\0009Ordinal0 [0x009C0AE3+1706723]\000A\0009Ordinal0 [0x009268C1+1075393]\000A\0009Ordinal0 [0x0089DE52+515666]\000A\0009Ordinal0 [0x00897C88+490632]\000A\0009Ordinal0 [0x0089837B+492411]\000A\0009Ordinal0 [0x008992D5+496341]\000A\0009Ordinal0 [0x00894EE5+478949]\000A\0009Ordinal0 [0x0089EC80+519296]\000A\0009Ordinal0 [0x0084CA67+182887]\000A\0009Ordinal0 [0x0084BDDD+179677]\000A\0009Ordinal0 [0x00849D4B+171339]\000A\0009Ordinal0 [0x00831D4A+73034]\000A\0009Ordinal0 [0x00832DC0+77248]\000A\0009Ordinal0 [0x00832D59+77145]\000A\0009Ordinal0 [0x0093BB37+1162039]\000A\0009GetHandleVerifier [0x00A5A7C6+508998]\000A\0009GetHandleVerifier [0x00A5A504+508292]\000A\0009GetHandleVerifier [0x00A6F617+594583]\000A\0009GetHandleVerifier [0x00A5B036+511158]\000A\0009Ordinal0 [0x00933FFC+1130492]\000A\0009Ordinal0 [0x0093D49B+1168539]\000A\0009Ordinal0 [0x0093D603+1168899]\000A\0009Ordinal0 [0x00955B05+1268485]\000A\0009BaseThreadInitThunk [0x76AD6359+25]\000A\0009RtlGetAppContainerNamedObjectPath [0x77B17B74+228]\000A\0009RtlGetAppContainerNamedObjectPath [0x77B17B44+180]\000A\000A\0009at tests.RegistrationTest.setup(RegistrationTest.java:31)\000A
+
+
+# Created on 2020-03-25T00:37:58.394
+Unexpected IOException: 9,1,tests.RegistrationTest,SandBox(tests.RegistrationTest),null,session not created\000Afrom chrome not reachable\000A  (Session info: chrome=80.0.3987.149)\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'DESKTOP-PIYUSH'\002C ip: '192.168.137.1'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_241'\000ADriver info: driver.version: ChromeDriver\000Aremote stacktrace: Backtrace:\000A\0009Ordinal0 [0x009C0AE3+1706723]\000A\0009Ordinal0 [0x009268C1+1075393]\000A\0009Ordinal0 [0x0089DE52+515666]\000A\0009Ordinal0 [0x00897C88+490632]\000A\0009Ordinal0 [0x0089837B+492411]\000A\0009Ordinal0 [0x008992D5+496341]\000A\0009Ordinal0 [0x00894EE5+478949]\000A\0009Ordinal0 [0x0089EC80+519296]\000A\0009Ordinal0 [0x0084CA67+182887]\000A\0009Ordinal0 [0x0084BDDD+179677]\000A\0009Ordinal0 [0x00849D4B+171339]\000A\0009Ordinal0 [0x00831D4A+73034]\000A\0009Ordinal0 [0x00832DC0+77248]\000A\0009Ordinal0 [0x00832D59+77145]\000A\0009Ordinal0 [0x0093BB37+1162039]\000A\0009GetHandleVerifier [0x00A5A7C6+508998]\000A\0009GetHandleVerifier [0x00A5A504+508292]\000A\0009GetHandleVerifier [0x00A6F617+594583]\000A\0009GetHandleVerifier [0x00A5B036+511158]\000A\0009Ordinal0 [0x00933FFC+1130492]\000A\0009Ordinal0 [0x0093D49B+1168539]\000A\0009Ordinal0 [0x0093D603+1168899]\000A\0009Ordinal0 [0x00955B05+1268485]\000A\0009BaseThreadInitThunk [0x76AD6359+25]\000A\0009RtlGetAppContainerNamedObjectPath [0x77B17B74+228]\000A\0009RtlGetAppContainerNamedObjectPath [0x77B17B44+180]\000A,null
+
+
+# Created on 2020-03-25T00:37:58.423
+Unexpected IOException: 9,1,tests.RegistrationTest,Register_ValidUserValidPass(tests.RegistrationTest),null,session not created\000Afrom chrome not reachable\000A  (Session info: chrome=80.0.3987.149)\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'DESKTOP-PIYUSH'\002C ip: '192.168.137.1'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_241'\000ADriver info: driver.version: ChromeDriver\000Aremote stacktrace: Backtrace:\000A\0009Ordinal0 [0x009C0AE3+1706723]\000A\0009Ordinal0 [0x009268C1+1075393]\000A\0009Ordinal0 [0x0089DE52+515666]\000A\0009Ordinal0 [0x00897C88+490632]\000A\0009Ordinal0 [0x0089837B+492411]\000A\0009Ordinal0 [0x008992D5+496341]\000A\0009Ordinal0 [0x00894EE5+478949]\000A\0009Ordinal0 [0x0089EC80+519296]\000A\0009Ordinal0 [0x0084CA67+182887]\000A\0009Ordinal0 [0x0084BDDD+179677]\000A\0009Ordinal0 [0x00849D4B+171339]\000A\0009Ordinal0 [0x00831D4A+73034]\000A\0009Ordinal0 [0x00832DC0+77248]\000A\0009Ordinal0 [0x00832D59+77145]\000A\0009Ordinal0 [0x0093BB37+1162039]\000A\0009GetHandleVerifier [0x00A5A7C6+508998]\000A\0009GetHandleVerifier [0x00A5A504+508292]\000A\0009GetHandleVerifier [0x00A6F617+594583]\000A\0009GetHandleVerifier [0x00A5B036+511158]\000A\0009Ordinal0 [0x00933FFC+1130492]\000A\0009Ordinal0 [0x0093D49B+1168539]\000A\0009Ordinal0 [0x0093D603+1168899]\000A\0009Ordinal0 [0x00955B05+1268485]\000A\0009BaseThreadInitThunk [0x76AD6359+25]\000A\0009RtlGetAppContainerNamedObjectPath [0x77B17B74+228]\000A\0009RtlGetAppContainerNamedObjectPath [0x77B17B44+180]\000A,null
+
+
+# Created on 2020-03-25T00:37:58.437
+Unexpected IOException: 9,1,tests.RegistrationTest,SetPassword(tests.RegistrationTest),null,session not created\000Afrom chrome not reachable\000A  (Session info: chrome=80.0.3987.149)\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'DESKTOP-PIYUSH'\002C ip: '192.168.137.1'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_241'\000ADriver info: driver.version: ChromeDriver\000Aremote stacktrace: Backtrace:\000A\0009Ordinal0 [0x009C0AE3+1706723]\000A\0009Ordinal0 [0x009268C1+1075393]\000A\0009Ordinal0 [0x0089DE52+515666]\000A\0009Ordinal0 [0x00897C88+490632]\000A\0009Ordinal0 [0x0089837B+492411]\000A\0009Ordinal0 [0x008992D5+496341]\000A\0009Ordinal0 [0x00894EE5+478949]\000A\0009Ordinal0 [0x0089EC80+519296]\000A\0009Ordinal0 [0x0084CA67+182887]\000A\0009Ordinal0 [0x0084BDDD+179677]\000A\0009Ordinal0 [0x00849D4B+171339]\000A\0009Ordinal0 [0x00831D4A+73034]\000A\0009Ordinal0 [0x00832DC0+77248]\000A\0009Ordinal0 [0x00832D59+77145]\000A\0009Ordinal0 [0x0093BB37+1162039]\000A\0009GetHandleVerifier [0x00A5A7C6+508998]\000A\0009GetHandleVerifier [0x00A5A504+508292]\000A\0009GetHandleVerifier [0x00A6F617+594583]\000A\0009GetHandleVerifier [0x00A5B036+511158]\000A\0009Ordinal0 [0x00933FFC+1130492]\000A\0009Ordinal0 [0x0093D49B+1168539]\000A\0009Ordinal0 [0x0093D603+1168899]\000A\0009Ordinal0 [0x00955B05+1268485]\000A\0009BaseThreadInitThunk [0x76AD6359+25]\000A\0009RtlGetAppContainerNamedObjectPath [0x77B17B74+228]\000A\0009RtlGetAppContainerNamedObjectPath [0x77B17B44+180]\000A,null
+
+
+# Created on 2020-03-25T00:37:58.480
+Unexpected IOException: 5,1,tests.CreateProject_TestScenario1,login_ValidUserValidPass(tests.CreateProject_TestScenario1),tests.CreateProject_TestScenario1,null,null
+
+
+# Created on 2020-03-25T00:37:58.493
+Unexpected IOException: 8,1,tests.CreateProject_TestScenario1,login_ValidUserValidPass(tests.CreateProject_TestScenario1),null,null,null,null,CreateProject_TestScenario1.login_ValidUserValidPass:32 \00BB NullPointer,java.lang.NullPointerException\000A\0009at tests.CreateProject_TestScenario1.login_ValidUserValidPass(CreateProject_TestScenario1.java:32)\000A
+
+
+# Created on 2020-03-25T00:37:58.498
+Unexpected IOException: 5,1,tests.CreateProject_TestScenario1,NewProject(tests.CreateProject_TestScenario1),tests.CreateProject_TestScenario1,null,null
+
+
+# Created on 2020-03-25T00:37:58.504
+Unexpected IOException: 8,1,tests.CreateProject_TestScenario1,NewProject(tests.CreateProject_TestScenario1),null,null,null,null,CreateProject_TestScenario1.NewProject:44 \00BB NullPointer,java.lang.NullPointerException\000A\0009at tests.CreateProject_TestScenario1.NewProject(CreateProject_TestScenario1.java:44)\000A
+
+
+# Created on 2020-03-25T00:37:58.510
+Unexpected IOException: 5,1,tests.CreateProject_TestScenario1,ProjectName(tests.CreateProject_TestScenario1),tests.CreateProject_TestScenario1,null,null
+
+
+# Created on 2020-03-25T00:38:01.515
+Unexpected IOException: 8,1,tests.CreateProject_TestScenario1,ProjectName(tests.CreateProject_TestScenario1),null,null,null,null,CreateProject_TestScenario1.ProjectName:62 \00BB NullPointer,java.lang.NullPointerException\000A\0009at tests.CreateProject_TestScenario1.ProjectName(CreateProject_TestScenario1.java:62)\000A
+
+
+# Created on 2020-03-25T00:38:01.518
+Unexpected IOException: 5,1,tests.CreateProject_TestScenario1,UserStory(tests.CreateProject_TestScenario1),tests.CreateProject_TestScenario1,null,null
+
+
+# Created on 2020-03-25T00:38:01.632
+Unexpected IOException: 8,1,tests.CreateProject_TestScenario1,UserStory(tests.CreateProject_TestScenario1),null,null,null,null,CreateProject_TestScenario1.UserStory:70 \00BB NullPointer,java.lang.NullPointerException\000A\0009at tests.CreateProject_TestScenario1.UserStory(CreateProject_TestScenario1.java:70)\000A
+
+
+# Created on 2020-03-25T00:38:01.638
+Unexpected IOException: 8,1,tests.CreateProject_TestScenario1,logout(tests.CreateProject_TestScenario1),null,null,null,null,CreateProject_TestScenario1.logout:77 \00BB NullPointer,java.lang.NullPointerException\000A\0009at tests.CreateProject_TestScenario1.logout(CreateProject_TestScenario1.java:77)\000A
+
+
+# Created on 2020-03-25T00:38:01.645
+Unexpected IOException: 5,1,tests.CreateXrayProject_TestScenario2,login_ValidUserValidPass(tests.CreateXrayProject_TestScenario2),tests.CreateXrayProject_TestScenario2,null,null
+
+
+# Created on 2020-03-25T00:38:01.649
+Unexpected IOException: 8,1,tests.CreateXrayProject_TestScenario2,login_ValidUserValidPass(tests.CreateXrayProject_TestScenario2),null,null,null,null,CreateXrayProject_TestScenario2.login_ValidUserValidPass:29 \00BB NullPointer,java.lang.NullPointerException\000A\0009at tests.CreateXrayProject_TestScenario2.login_ValidUserValidPass(CreateXrayProject_TestScenario2.java:29)\000A
+
+
+# Created on 2020-03-25T00:38:01.653
+Unexpected IOException: 5,1,tests.CreateXrayProject_TestScenario2,CreateXrayProject(tests.CreateXrayProject_TestScenario2),tests.CreateXrayProject_TestScenario2,null,null
+
+
+# Created on 2020-03-25T00:38:01.657
+Unexpected IOException: 8,1,tests.CreateXrayProject_TestScenario2,CreateXrayProject(tests.CreateXrayProject_TestScenario2),null,null,null,null,CreateXrayProject_TestScenario2.CreateXrayProject:46 \00BB NullPointer,java.lang.NullPointerException\000A\0009at tests.CreateXrayProject_TestScenario2.CreateXrayProject(CreateXrayProject_TestScenario2.java:46)\000A
+
+
+# Created on 2020-03-25T00:38:01.661
+Unexpected IOException: 5,1,tests.CreateXrayProject_TestScenario2,ProjectName(tests.CreateXrayProject_TestScenario2),tests.CreateXrayProject_TestScenario2,null,null
+
+
+# Created on 2020-03-25T00:38:04.665
+Unexpected IOException: 8,1,tests.CreateXrayProject_TestScenario2,ProjectName(tests.CreateXrayProject_TestScenario2),null,null,null,null,CreateXrayProject_TestScenario2.ProjectName:62 \00BB NullPointer,java.lang.NullPointerException\000A\0009at tests.CreateXrayProject_TestScenario2.ProjectName(CreateXrayProject_TestScenario2.java:62)\000A
+
+
+# Created on 2020-03-25T00:38:04.669
+Unexpected IOException: 5,1,tests.CreateXrayProject_TestScenario2,UserStory(tests.CreateXrayProject_TestScenario2),tests.CreateXrayProject_TestScenario2,null,null
+
+
+# Created on 2020-03-25T00:38:04.673
+Unexpected IOException: 8,1,tests.CreateXrayProject_TestScenario2,UserStory(tests.CreateXrayProject_TestScenario2),null,null,null,null,CreateXrayProject_TestScenario2.UserStory:70 \00BB NullPointer,java.lang.NullPointerException\000A\0009at tests.CreateXrayProject_TestScenario2.UserStory(CreateXrayProject_TestScenario2.java:70)\000A
+
+
+# Created on 2020-03-25T00:38:04.677
+Unexpected IOException: 5,1,tests.CreateXrayProject_TestScenario2,Plan(tests.CreateXrayProject_TestScenario2),tests.CreateXrayProject_TestScenario2,null,null
+
+
+# Created on 2020-03-25T00:38:07.682
+Unexpected IOException: 8,1,tests.CreateXrayProject_TestScenario2,Plan(tests.CreateXrayProject_TestScenario2),null,null,null,null,CreateXrayProject_TestScenario2.Plan:79 \00BB NullPointer,java.lang.NullPointerException\000A\0009at tests.CreateXrayProject_TestScenario2.Plan(CreateXrayProject_TestScenario2.java:79)\000A
+
+
+# Created on 2020-03-25T00:38:07.686
+Unexpected IOException: 8,1,tests.CreateXrayProject_TestScenario2,logout(tests.CreateXrayProject_TestScenario2),null,null,null,null,CreateXrayProject_TestScenario2.logout:92 \00BB NullPointer,java.lang.NullPointerException\000A\0009at tests.CreateXrayProject_TestScenario2.logout(CreateXrayProject_TestScenario2.java:92)\000A
+
+
+# Created on 2020-03-25T00:38:07.692
+Unexpected IOException: 8,1,tests.CreateXrayProject_TestScenario3,Setup(tests.CreateXrayProject_TestScenario3),null,null,null,null,CreateXrayProject_TestScenario3.Setup:30 \00BB NullPointer,java.lang.NullPointerException\000A\0009at tests.CreateXrayProject_TestScenario3.Setup(CreateXrayProject_TestScenario3.java:30)\000A
+
+
+# Created on 2020-03-25T00:38:07.703
+Unexpected IOException: 9,1,tests.CreateXrayProject_TestScenario3,New_Registration(tests.CreateXrayProject_TestScenario3),null,null,null
+
+
+# Created on 2020-03-25T00:38:07.709
+Unexpected IOException: 9,1,tests.CreateXrayProject_TestScenario3,login_ValidUserValidPass(tests.CreateXrayProject_TestScenario3),null,null,null
+
+
+# Created on 2020-03-25T00:38:07.716
+Unexpected IOException: 9,1,tests.CreateXrayProject_TestScenario3,CreateXrayProject(tests.CreateXrayProject_TestScenario3),null,null,null
+
+
+# Created on 2020-03-25T00:38:07.721
+Unexpected IOException: 9,1,tests.CreateXrayProject_TestScenario3,ProjectName(tests.CreateXrayProject_TestScenario3),null,null,null
+
+
+# Created on 2020-03-25T00:38:07.729
+Unexpected IOException: 9,1,tests.CreateXrayProject_TestScenario3,UserStory(tests.CreateXrayProject_TestScenario3),null,null,null
+
+
+# Created on 2020-03-25T00:38:07.734
+Unexpected IOException: 9,1,tests.CreateXrayProject_TestScenario3,Task(tests.CreateXrayProject_TestScenario3),null,null,null
+
+
+# Created on 2020-03-25T00:38:07.740
+Unexpected IOException: 9,1,tests.CreateXrayProject_TestScenario3,logout(tests.CreateXrayProject_TestScenario3),null,null,null
+
+
+# Created on 2020-03-25T00:38:07.742
+Unexpected IOException: 5,1,tests.CreateProject_TestScenario4,login_ValidUserValidPass(tests.CreateProject_TestScenario4),tests.CreateProject_TestScenario4,null,null
+
+
+# Created on 2020-03-25T00:38:07.745
+Unexpected IOException: 8,1,tests.CreateProject_TestScenario4,login_ValidUserValidPass(tests.CreateProject_TestScenario4),null,null,null,null,CreateProject_TestScenario4.login_ValidUserValidPass:30 \00BB NullPointer,java.lang.NullPointerException\000A\0009at tests.CreateProject_TestScenario4.login_ValidUserValidPass(CreateProject_TestScenario4.java:30)\000A
+
+
+# Created on 2020-03-25T00:38:07.747
+Unexpected IOException: 5,1,tests.CreateProject_TestScenario4,NewProject(tests.CreateProject_TestScenario4),tests.CreateProject_TestScenario4,null,null
+
+
+# Created on 2020-03-25T00:38:07.750
+Unexpected IOException: 8,1,tests.CreateProject_TestScenario4,NewProject(tests.CreateProject_TestScenario4),null,null,null,null,CreateProject_TestScenario4.NewProject:47 \00BB NullPointer,java.lang.NullPointerException\000A\0009at tests.CreateProject_TestScenario4.NewProject(CreateProject_TestScenario4.java:47)\000A
+
+
+# Created on 2020-03-25T00:38:07.754
+Unexpected IOException: 5,1,tests.CreateProject_TestScenario4,ProjectName(tests.CreateProject_TestScenario4),tests.CreateProject_TestScenario4,null,null
+
+
+# Created on 2020-03-25T00:38:10.764
+Unexpected IOException: 8,1,tests.CreateProject_TestScenario4,ProjectName(tests.CreateProject_TestScenario4),null,null,null,null,CreateProject_TestScenario4.ProjectName:63 \00BB NullPointer,java.lang.NullPointerException\000A\0009at tests.CreateProject_TestScenario4.ProjectName(CreateProject_TestScenario4.java:63)\000A
+
+
+# Created on 2020-03-25T00:38:10.776
+Unexpected IOException: 5,1,tests.CreateProject_TestScenario4,UserStory(tests.CreateProject_TestScenario4),tests.CreateProject_TestScenario4,null,null
+
+
+# Created on 2020-03-25T00:38:10.794
+Unexpected IOException: 8,1,tests.CreateProject_TestScenario4,UserStory(tests.CreateProject_TestScenario4),null,null,null,null,CreateProject_TestScenario4.UserStory:71 \00BB NullPointer,java.lang.NullPointerException\000A\0009at tests.CreateProject_TestScenario4.UserStory(CreateProject_TestScenario4.java:71)\000A
+
+
+# Created on 2020-03-25T00:38:10.801
+Unexpected IOException: 8,1,tests.CreateProject_TestScenario4,logout(tests.CreateProject_TestScenario4),null,null,null,null,CreateProject_TestScenario4.logout:78 \00BB NullPointer,java.lang.NullPointerException\000A\0009at tests.CreateProject_TestScenario4.logout(CreateProject_TestScenario4.java:78)\000A
+
+
+# Created on 2020-03-25T00:38:10.814
+Unexpected IOException: 8,1,tests.CreateXrayProject_TestScenario5,Setup(tests.CreateXrayProject_TestScenario5),null,null,null,null,CreateXrayProject_TestScenario5.Setup:30 \00BB NullPointer,java.lang.NullPointerException\000A\0009at tests.CreateXrayProject_TestScenario5.Setup(CreateXrayProject_TestScenario5.java:30)\000A
+
+
+# Created on 2020-03-25T00:38:10.826
+Unexpected IOException: 9,1,tests.CreateXrayProject_TestScenario5,New_Registration(tests.CreateXrayProject_TestScenario5),null,null,null
+
+
+# Created on 2020-03-25T00:38:10.837
+Unexpected IOException: 9,1,tests.CreateXrayProject_TestScenario5,login_ValidUserValidPass(tests.CreateXrayProject_TestScenario5),null,null,null
+
+
+# Created on 2020-03-25T00:38:10.848
+Unexpected IOException: 9,1,tests.CreateXrayProject_TestScenario5,CreateXrayProject(tests.CreateXrayProject_TestScenario5),null,null,null
+
+
+# Created on 2020-03-25T00:38:10.855
+Unexpected IOException: 9,1,tests.CreateXrayProject_TestScenario5,ProjectName(tests.CreateXrayProject_TestScenario5),null,null,null
+
+
+# Created on 2020-03-25T00:38:10.862
+Unexpected IOException: 9,1,tests.CreateXrayProject_TestScenario5,UserStory(tests.CreateXrayProject_TestScenario5),null,null,null
+
+
+# Created on 2020-03-25T00:38:10.870
+Unexpected IOException: 9,1,tests.CreateXrayProject_TestScenario5,TestCase(tests.CreateXrayProject_TestScenario5),null,null,null
+
+
+# Created on 2020-03-25T00:38:10.877
+Unexpected IOException: 9,1,tests.CreateXrayProject_TestScenario5,logout(tests.CreateXrayProject_TestScenario5),null,null,null
+
+
+# Created on 2020-03-25T00:38:11.560
+Unexpected IOException: 2,1,org.apache.maven.surefire.testng.TestNGXmlTestSuite,TestSuite,null,null,null
+
+

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test thread-count="5" name="Test">
+		<parameter name="Browser" value="Chrome" />
+		<classes>
+			<class name="tests.RegistrationTest" />
+			<class name="tests.CreateProject_TestScenario1"/>
+			<class name="tests.CreateXrayProject_TestScenario2" />
+			<class name="tests.CreateXrayProject_TestScenario3" />
+			<class name="tests.CreateProject_TestScenario4"/>
+			<class name="tests.CreateXrayProject_TestScenario5" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

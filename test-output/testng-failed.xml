@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="Browser" value="Chrome"/>
+    <classes>
+      <class name="tests.CreateXrayProject_TestScenario5">
+        <methods>
+          <include name="ProjectName"/>
+          <include name="TestCase"/>
+          <include name="Setup"/>
+          <include name="logout"/>
+          <include name="New_Registration"/>
+          <include name="UserStory"/>
+          <include name="login_ValidUserValidPass"/>
+          <include name="CreateXrayProject"/>
+        </methods>
+      </class> <!-- tests.CreateXrayProject_TestScenario5 -->
+      <class name="tests.RegistrationTest">
+        <methods>
+          <include name="setup"/>
+          <include name="Register_ValidUserValidPass"/>
+          <include name="SetPassword"/>
+        </methods>
+      </class> <!-- tests.RegistrationTest -->
+      <class name="tests.CreateProject_TestScenario1">
+        <methods>
+          <include name="NewProject"/>
+          <include name="Setup"/>
+          <include name="UserStory"/>
+          <include name="login_ValidUserValidPass"/>
+          <include name="ProjectName"/>
+          <include name="logout"/>
+        </methods>
+      </class> <!-- tests.CreateProject_TestScenario1 -->
+      <class name="tests.CreateXrayProject_TestScenario2">
+        <methods>
+          <include name="CreateXrayProject"/>
+          <include name="login_ValidUserValidPass"/>
+          <include name="UserStory"/>
+          <include name="Plan"/>
+          <include name="Setup"/>
+          <include name="ProjectName"/>
+          <include name="logout"/>
+        </methods>
+      </class> <!-- tests.CreateXrayProject_TestScenario2 -->
+      <class name="tests.CreateXrayProject_TestScenario3">
+        <methods>
+          <include name="ProjectName"/>
+          <include name="Task"/>
+          <include name="New_Registration"/>
+          <include name="logout"/>
+          <include name="CreateXrayProject"/>
+          <include name="Setup"/>
+          <include name="UserStory"/>
+          <include name="login_ValidUserValidPass"/>
+        </methods>
+      </class> <!-- tests.CreateXrayProject_TestScenario3 -->
+      <class name="tests.CreateProject_TestScenario4">
+        <methods>
+          <include name="UserStory"/>
+          <include name="NewProject"/>
+          <include name="Setup"/>
+          <include name="ProjectName"/>
+          <include name="TestCase"/>
+          <include name="login_ValidUserValidPass"/>
+          <include name="logout"/>
+        </methods>
+      </class> <!-- tests.CreateProject_TestScenario4 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
